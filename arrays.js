@@ -18,3 +18,10 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 destructivelyAddElementToBeginningOfArray([1], 'foo');
+
+function addElementToEndOfArray(array, element) {
+  var newArray = [...array, element];
+  return newArray;
+}
+
+addElementToEndOfArray([1], 'foo');
