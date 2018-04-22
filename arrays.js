@@ -25,3 +25,10 @@ function addElementToEndOfArray(array, element) {
 }
 
 addElementToEndOfArray([1], 'foo');
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element);
+  return array;
+}
+
+destructivelyAddElementToEndOfArray([1], 'foo');
