@@ -51,7 +51,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 
 //Test 13 and 14: Remove from Beginning Without Changing the Original Array
 function removeElementFromBeginningOfArray(array) {
-  array.slice(0,1);
+  array.slice(1);
   return array;
 }
 
