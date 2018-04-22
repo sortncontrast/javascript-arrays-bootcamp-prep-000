@@ -54,3 +54,5 @@ function removeElementFromBeginningOfArray(array) {
   array.slice(1);
   return array;
 }
+
+removeElementFromBeginningOfArray([1,2,3]);
