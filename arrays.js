@@ -1,4 +1,4 @@
-//Practice Making an Array
+//Test 1: Practice Making an Array
 var chocolateBars = [
   'snickers',
   'hundred grand',
@@ -6,7 +6,7 @@ var chocolateBars = [
   'skittles'
   ]
 
-//Without Changing The Original Array
+//Test 2 and 3: Without Changing The Original Array
 function addElementToBeginningOfArray(array, element) {
   var newArray = [element, ...array];
   return newArray;
@@ -14,7 +14,7 @@ function addElementToBeginningOfArray(array, element) {
 
 addElementToBeginningOfArray([1], 'foo');
 
-//With Changing The Original Array
+//Test 4 and 5: With Changing The Original Array
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
   return array;
@@ -22,7 +22,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 destructivelyAddElementToBeginningOfArray([1], 'foo');
 
-//Without Changing The Original Array
+//Test 6 and 7: Without Changing The Original Array
 function addElementToEndOfArray(array, element) {
   var newArray = [...array, element];
   return newArray;
@@ -30,7 +30,7 @@ function addElementToEndOfArray(array, element) {
 
 addElementToEndOfArray([1], 'foo');
 
-//With Changing The Original Array
+//Test 8 and 9: With Changing The Original Array
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element);
   return array;
@@ -38,7 +38,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 
 destructivelyAddElementToEndOfArray([1], 'foo');
 
-//Return Element At Specific Array Index
+//Test 10 and 11: Return Element At Specific Array Index
 function accessElementInArray(array, index) {
   return array[index];
 }
