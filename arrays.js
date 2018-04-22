@@ -9,3 +9,6 @@ function addElementToBeginningOfArray(array, element) {
   newArray = ["element", ...array];
   return array;
 }
+
+addElementToBeginningOfArray([1], 'foo');
+
