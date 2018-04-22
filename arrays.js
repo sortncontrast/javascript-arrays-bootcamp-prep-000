@@ -43,4 +43,4 @@ function accessElementInArray(array, index) {
   return array[index];
 }
 
-accessElementInArray([1], 0);
+accessElementInArray([1,2,3], 2);
