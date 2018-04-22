@@ -42,3 +42,5 @@ destructivelyAddElementToEndOfArray([1], 'foo');
 function accessElementInArray(array, index) {
   return array[index];
 }
+
+accessElementInArray([1], 0);
