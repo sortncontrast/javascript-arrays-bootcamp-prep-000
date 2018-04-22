@@ -56,3 +56,22 @@ function removeElementFromBeginningOfArray(array) {
 }
 
 removeElementFromBeginningOfArray([1,2,3]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
