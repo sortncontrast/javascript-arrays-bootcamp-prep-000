@@ -57,12 +57,19 @@ function removeElementFromBeginningOfArray(array) {
 
 removeElementFromBeginningOfArray([1,2,3]);
 
-//Test 15
+//Test 15 and 16: Remove from End With Changing the Original Array
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop();
   return array;
 }
 
+//Test 17 and 18: Remove from End Without Changing the Original Array
+function removeElementFromEndOfArray(array) {
+  var newArray = array.slice(0, array.length - 1);
+  return newArray;
+}
+
+removeElementFromEndOfArray([1,2,3,]);
 
 
 
