@@ -38,9 +38,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 
 destructivelyAddElementToEndOfArray([1], 'foo');
 
-//Test 10 and 11: Return Element At Specific Array Index
+//Test 10: Return Element At Specific Array Index
 function accessElementInArray(array, index) {
   return array[index];
 }
-
-accessElementInArray([1,2,3], 2);
